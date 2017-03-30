@@ -1,6 +1,7 @@
 .container {
 	padding-left: 60px;
 	padding-right: 60px;
+	display: flex;
 }
 
 nav {
@@ -34,6 +35,51 @@ nav li::after {
 	content: '|';
 	margin-left: 5px;
 }
+
+
+/*nav using flexbox*/
+
+/*.container {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+nav {
+	align-items: center;
+	position: fixed;
+	width: 100%;
+	height: 60px;
+	background-color: grey;
+}
+
+
+nav > img {
+	border-radius: 50%;
+	border: 1px solid black;
+	max-height: 50px;
+
+}
+
+.container ul {
+	text-align: right;
+	flex-grow: 1;
+}
+
+.container li {
+	display: inline-block;
+
+	
+	
+}
+
+.container li::after {
+	content: '|';
+	margin-left: 5px;
+
+}
+*/
+
 
 main {
 	padding-top: 90px;
